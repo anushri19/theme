@@ -1,0 +1,20 @@
+<?php
+function node_json_data_schema() {
+  $schema['api'] = array(
+    'fields' => array(
+      'id'=>array(
+        'type'=>'serial',
+        'not null' => TRUE,
+      ),
+      'apikey'=>array(
+        'type' => 'varchar',
+        'length' => 40,
+        'not null' => TRUE,
+      ),
+
+
+    ),
+    'primary key' => array('id'),
+  );
+  return $schema;
+}

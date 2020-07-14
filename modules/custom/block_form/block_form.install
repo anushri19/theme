@@ -1,0 +1,25 @@
+<?php
+function block_form_schema() {
+  $schema['rating_data'] = array(
+    'fields' => array(
+      'id'=>array(
+        'type'=>'serial',
+        'not null' => TRUE,
+      ),
+      'name'=>array(
+        'type' => 'varchar',
+        'length' => 40,
+        'not null' => TRUE,
+      ),
+      'rating'=>array(
+        'type' => 'varchar',
+        'length' => 25,
+        'not null' => TRUE,
+      ),
+
+
+    ),
+    'primary key' => array('id'),
+  );
+  return $schema;
+}

@@ -1,0 +1,7 @@
+
+name: Node JSON data
+description: get API key.
+core: 8.x
+core_version_requirement: ^8 || ^9
+package: Custom
+type: module

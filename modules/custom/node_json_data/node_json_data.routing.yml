@@ -1,0 +1,17 @@
+
+node_json_data.form:
+ path: '/api'
+ defaults:
+   _title: 'ADD API'
+   _form: '\Drupal\node_json_data\Form\APIform'
+ requirements:
+   _permission: 'access content'
+
+
+node_json_data.getApiDataController:
+  path: '/api/data/{apiKey}/{node_id}'
+  defaults:
+    _controller: '\Drupal\node_json_data\Controller\getApiDataController::getApiDataController'
+    _title: 'getApiDataController'
+  requirements:
+    _permission: 'access content'
