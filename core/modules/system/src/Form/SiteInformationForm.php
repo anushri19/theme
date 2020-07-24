@@ -134,7 +134,7 @@ class SiteInformationForm extends ConfigFormBase {
     $form['error_page'] = [
       '#type' => 'details',
       '#title' => t('Error pages'),
-      '#open' => TRUE,
+      '#open' => TRUE,  
     ];
     $form['error_page']['site_403'] = [
       '#type' => 'textfield',
@@ -151,7 +151,9 @@ class SiteInformationForm extends ConfigFormBase {
       '#description' => t('This page is displayed when no other content matches the requested document. Leave blank to display a generic "page not found" page.'),
     ];
 
+
     return parent::buildForm($form, $form_state);
+    
   }
 
   /**
@@ -212,7 +214,7 @@ class SiteInformationForm extends ConfigFormBase {
       ->set('page.403', $form_state->getValue('site_403'))
       ->set('page.404', $form_state->getValue('site_404'))
       ->save();
-
+      
     parent::submitForm($form, $form_state);
   }
 

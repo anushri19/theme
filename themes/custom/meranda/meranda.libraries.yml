@@ -1,0 +1,14 @@
+meranda-css:
+  version: 1.0
+  css:
+    base:
+      css/base/style.css: {}
+
+cabin:
+  license:
+    name: SIL Open Font License 1.1
+    url: https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL
+  css:
+    theme:
+      //fonts.google.com/css?family=Cabin: { type: external }
+      css/style.css: {}

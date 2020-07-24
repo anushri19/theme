@@ -1,0 +1,23 @@
+name: Meranda
+type: theme
+description: drupal custom theme based on Meranda
+core: 8.x
+base theme: bootstrap
+screenshot: screenshot.png
+core_version_requirement: ^8 || ^9
+
+libraries:
+  - meranda/meranda-css
+  - meranda/cabin
+  
+
+regions:
+  header: Header
+  main_menu: Navigation
+  slider: Slider
+  content: 'Content'
+  sidebar_first: 'Primary'
+  sidebar_second: 'Secondary'
+  footer: 'Footer'
+  page_top: 'Page top'
+  page_bottom: 'Page bottom'
