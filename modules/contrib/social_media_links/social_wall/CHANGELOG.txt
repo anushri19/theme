@@ -1,0 +1,11 @@
+2019-05-24
+----------
+* Update code format to fit coding standards.
+
+2019-06-03
+----------
+* Capitalize module name in .info.
+
+2019-07-01
+----------
+* Update README.md : wrap lines to 80 chars, to fit accessibility.

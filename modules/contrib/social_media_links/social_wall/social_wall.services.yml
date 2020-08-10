@@ -1,0 +1,4 @@
+services:
+  plugin.manager.social_network:
+    class: Drupal\social_wall\Plugin\SocialNetworkManager
+    parent: default_plugin_manager

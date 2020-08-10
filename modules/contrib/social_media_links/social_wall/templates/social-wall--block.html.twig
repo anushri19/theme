@@ -1,0 +1,11 @@
+{{ attach_library('social_wall/social_wall.styles') }}
+
+<div class="social-wall">
+  <ul class="wrapper">
+    {% for social_network_build in elements %}
+      <li>
+        {{ social_network_build }}
+      </li>
+    {% endfor %}
+  </ul>
+</div>

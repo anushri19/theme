@@ -1,0 +1,13 @@
+social_wall.social_network_config.*:
+  type: config_entity
+  label: 'Social networks config'
+  mapping:
+    id:
+      type: string
+      label: 'ID'
+    label:
+      type: label
+      label: 'Label'
+    widget:
+      type: string
+      label: 'Widget'

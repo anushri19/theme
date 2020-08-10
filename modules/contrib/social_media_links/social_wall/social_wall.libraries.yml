@@ -1,0 +1,4 @@
+social_wall.styles:
+  css:
+    theme:
+      css/social_wall.css: {}

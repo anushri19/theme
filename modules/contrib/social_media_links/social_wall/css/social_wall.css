@@ -1,0 +1,39 @@
+.social-wall ul {
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+.social-wall li {
+  list-style: none;
+}
+
+.social-networks {
+  flex-direction: column;
+}
+
+.social-networks-date {
+  font-size: 12px;
+  color: #797676;
+}
+
+.social-networks-items {
+  padding: 10px;
+}
+
+.social-networks-items img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  flex: none; /* for ie 11 */
+}
+
+.social-networks-post {
+  font-size: 14px;
+}
+
+.social-wall .see-more {
+  font-size: 14px;
+  font-weight: bold;
+  color: inherit;
+}

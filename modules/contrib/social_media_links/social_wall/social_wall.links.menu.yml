@@ -1,0 +1,5 @@
+entity.social_network_config.collection:
+  title: 'Social networks'
+  parent: system.admin_config_services
+  description: 'Configure available Social networks for social wall.'
+  route_name: entity.social_network_config.collection

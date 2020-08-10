@@ -1,0 +1,5 @@
+entity.social_network_config.add_form:
+  route_name: 'entity.social_network_config.add_form'
+  title: 'Add Social network config'
+  appears_on:
+    - entity.social_network_config.collection

@@ -3,6 +3,8 @@ meranda-css:
   css:
     base:
       css/base/style.css: {}
+    theme:
+      css/style.css: {}
 
 cabin:
   license:

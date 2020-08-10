@@ -168,6 +168,8 @@
         {% endblock %}
       </section>
 
+      
+
       {# Sidebar Second #}
       {% if page.sidebar_second %}
         {% block sidebar_second %}
@@ -179,6 +181,12 @@
     </div>
   </div>
 {% endblock %}
+ {% if page.content2 %}
+        <div id="content2" class= "content2">
+          {{ page.content2 }}
+          
+        </div>
+      {% endif %}
 
 {% if page.footer %}
   {% block footer %}

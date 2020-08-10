@@ -1,0 +1,31 @@
+entity.social_network_config.collection:
+  path: '/admin/config/services/social-wall'
+  defaults:
+    _entity_list: 'social_network_config'
+    _title: 'Social networks configuration'
+  requirements:
+    _permission: 'administer social networks'
+
+entity.social_network_config.add_form:
+  path: '/admin/config/services/social-wall/add'
+  defaults:
+    _entity_form: 'social_network_config.add'
+    _title: 'Add social network config'
+  requirements:
+    _permission: 'administer social networks'
+
+entity.social_network_config.edit_form:
+  path: '/admin/config/services/social-wall/{social_network_config}'
+  defaults:
+    _entity_form: 'social_network_config.edit'
+    _title: 'Edit social network config'
+  requirements:
+    _permission: 'administer social networks'
+
+entity.social_network_config.delete_form:
+  path: '/admin/config/services/social-wall/{social_network_config}/delete'
+  defaults:
+    _entity_form: 'social_network_config.delete'
+    _title: 'Delete social network config'
+  requirements:
+    _permission: 'administer social networks'

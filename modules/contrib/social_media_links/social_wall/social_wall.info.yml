@@ -1,0 +1,12 @@
+name: 'Social Wall'
+type: module
+description: 'Display a social networks wall.'
+core: 8.x
+core_version_requirement: ^8 || ^9
+package: 'Social'
+configure: entity.social_network_config.collection
+
+# Information added by Drupal.org packaging script on 2020-05-25
+version: '2.1.4'
+project: 'social_wall'
+datestamp: 1590396519
